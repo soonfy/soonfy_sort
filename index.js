@@ -31,4 +31,14 @@ let Selection = require('./selection');
 arr = Selection.selectionSort(data);
 console.log('选择排序后数组是', arr);
 
+/**
+ * insertion sort demo
+ */
+
+let Insertion = require('./insertion')
+arr = Insertion.insertionSort(data);
+console.log('插入排序后数组是', arr);
+arr = Insertion.insertionSort_new(data);
+console.log('改进插入排序后数组是', arr);
+
 console.log(data);

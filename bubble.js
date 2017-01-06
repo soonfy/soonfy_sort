@@ -11,8 +11,8 @@ exports.bubbleSort = function (data) {
   console.time('冒泡排序耗时');
   let arr = data.slice(0);
   let len = arr.length;
-  for(let i = 0; i < len; i++){
-    for(let j = 0; j < len - 1 - i; j++){
+  for(let i = 1; i < len; i++){
+    for(let j = 0; j < len - i; j++){
       if(arr[j] > arr[j + 1]){
         let temp = arr[j];
         arr[j] = arr[j + 1];
