@@ -6,7 +6,7 @@
   > build and run  
   > config typescript  
   > tsc -w  
-  
+
   ```
   tsconfig.json
   {
@@ -53,3 +53,6 @@
   ```
 
 ## apriori  
+
+  1. bubble sort  
+  
