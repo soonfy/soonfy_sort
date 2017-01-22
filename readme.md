@@ -5,7 +5,8 @@
   1. typescript  
   > build and run  
   > config typescript  
-  > tsc -w
+  > tsc -w  
+  
   ```
   tsconfig.json
   {
@@ -46,6 +47,7 @@
 
   2. ts-node  
   > run  
+
   ```
   ts-node *.ts
   ```
