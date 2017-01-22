@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "sort apriori",
   "main": "index.ts",
-  "dependencies": {
-    "ts-node": "^2.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {},
   "scripts": {
     "test": "node dist/demo.js"
