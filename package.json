@@ -1,0 +1,26 @@
+{
+  "name": "sort",
+  "version": "1.0.0",
+  "description": "sort apriori",
+  "main": "index.ts",
+  "dependencies": {
+    "ts-node": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node dist/demo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soonfy/soonfy_sort.git"
+  },
+  "keywords": [
+    "sort"
+  ],
+  "author": "soonfy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soonfy/soonfy_sort/issues"
+  },
+  "homepage": "https://github.com/soonfy/soonfy_sort#readme"
+}
