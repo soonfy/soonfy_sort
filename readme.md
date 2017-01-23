@@ -1,6 +1,6 @@
 # sort  
 
-## ready  
+## ready development  
 
   1. typescript  
   > build and run  
@@ -14,7 +14,21 @@
   ts-node *.ts
   ```
 
-## apriori  
+## use module  
+
+  1. ts  
+  ```
+  import sort from 'sort_sf';
+  console.log(sort.bubble(arr));
+  ```
+
+  2. js  
+  ```
+  const sort = require('sort_sf');
+  console.log(sort.default.bubble(arr));
+  ```
+
+## sort apriori  
 > summary  
 
 ![apriori summary](./images/summary.png)  
