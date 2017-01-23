@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "module": "commonjs", //模块文件生成
-    "allowJs": true,  //是否编译js文件
+    "allowJs": false,  //是否编译js文件
     "target": "es6",  //es版本
     "allowUnreachableCode": false,  //是否显示不可到达代码
     "allowUnusedLabels": false, //是否显示无用标签
