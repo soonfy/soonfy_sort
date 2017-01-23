@@ -1,6 +1,6 @@
 /**
  *  @file selection sort apriori
- *  @author soonfy
+ *  @author soonfy <soonfy@163.com>
  */
 
 import { swap } from './util';
@@ -14,13 +14,13 @@ import { swap } from './util';
 export default function selection(arr: number[]): number[] {
   let len: number = arr.length,
     minIndex: number;
-  for (let i : number = 1; i < len; i++){
+  for (let i: number = 1; i < len; i++){
     minIndex = i - 1;
     for (let j: number = i; j < len; j++){
       if (arr[minIndex] > arr[j]) {
-        swap(arr, minIndex, j)
+        swap(arr, minIndex, j);
       }
     }
   }
-  return arr
+  return arr;
 }
