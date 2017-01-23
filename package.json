@@ -1,12 +1,12 @@
 {
   "name": "sort_sf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "sort apriori",
-  "main": "index.ts",
+  "main": "main/index.js",
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
-    "test": "node dist/demo.js"
+    "test": "node main/demo.js"
   },
   "repository": {
     "type": "git",
