@@ -16,6 +16,7 @@
 
 ## apriori  
 > summary  
+
 ![apriori summary](./images/summary.png)  
 > 参数：n - 数据规模，k - 桶的个数，in-place：常用内存，out-place - 额外内存。  
 
